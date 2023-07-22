@@ -113,10 +113,42 @@ main{
     margin-bottom: 1.5rem;
  
 }
-.fact-des{
+.fact-des {
     max-width: 542px;
-    
+    margin-bottom: 40px;
 }
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.fact-card-container .fact-card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.fact-card-container .card-status {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 40px 30px;
+    border-radius: 8px;
+    margin-bottom: -49px;
+    padding: 32px 41px;
+}
+.fact-card-container .card-des {
+    color: #727272;
+    font-size: 1,25rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 27px;
+    padding: 9px;
+}
+.img-fact {
+    margin-top: 31px;
+    margin-bottom: -74px;
+}
+
 
 /* responsive small media */
 @media screen and (max-width:576px) {
