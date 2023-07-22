@@ -91,3 +91,32 @@ ul li a{
     }
     
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.team-title{
+    font-size: 3.8rem;
+}
+.quick{
+    color:#727272;
+}
+.of-our{
+    color: #131313;
+}
+.feature{
+    color:#FF900E;
+}
